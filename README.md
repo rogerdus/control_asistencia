@@ -47,3 +47,88 @@ Con estos pasos completados, habrás configurado correctamente el proyecto para 
 ---
 
 © 2023 [Rogelio Interino]
+
+
+# Control de Asistencia
+
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Contribution](#contribution)
+- [License](#license)
+
+## Description
+
+The **Control de Asistencia** involves a system to manage attendance using barcode scanners. This project can serve as a great starting point if you are looking to implement an attendance recording system.
+
+## Features
+
+This project has been developed using the **Laravel** framework, ensuring solid and efficient code.
+
+## Requirements
+
+Make sure you have the following requirements before starting the installation:
+
+- [Laravel Framework](https://laravel.com) version 10.10 or higher.
+- [Node.js](https://nodejs.org) installed on your system.
+- [Composer](https://getcomposer.org) installed on your system.
+- [PHP](https://www.php.net) version 8.1 or higher.
+
+## Installation
+
+Follow these steps to install and set up the project in your local environment:
+
+1. Clone this repository to your local machine and navigate to the project folder.
+
+```bash
+git clone <repository_url>
+cd project-name
+```
+
+2. Install PHP dependencies using Composer.
+
+```bash
+composer install
+```
+
+3. Install JavaScript dependencies and compile assets.
+
+```bash
+npm install
+npm run build
+```
+
+4. Configure your local environment and database in the `.env` file.
+
+5. Run migrations and seeds to set up the database.
+
+```bash
+php artisan migrate --seed
+```
+
+6. Start the development server.
+
+```bash
+php artisan serve
+```
+
+Great! Now you can access the project in your browser using the address `http://localhost:8000`.
+
+## Contribution
+
+If you'd like to contribute to this project, follow these steps:
+
+1. Fork this repository.
+
+2. Create a branch for your new feature or bug fix.
+
+3. Make your changes and ensure to follow the project's coding guidelines.
+
+4. Submit a pull request detailing your changes for review.
+
+## License
+
+© 2023 [Rogelio Interino]
